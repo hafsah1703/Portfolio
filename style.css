@@ -1,115 +1,115 @@
-/* Body styling with a light gray background and dark text */
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4; /* Light gray background */
-    color: #333; /* Darker text color for contrast */
+    background-color: #f4f4f4; 
+    color: #333; 
     margin: 0;
     padding: 0;
 }
 
-/* Header styling */
+
 header {
-    background-color: #004d00; /* Darker green */
+    background-color: #004d00; 
     color: white;
     padding: 20px;
     text-align: center;
 }
 
-/* Section styling */
+
 section {
     margin: 20px;
     padding: 20px;
-    background-color: #006400; /* Dark green background */
+    background-color: #006400; 
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    color: white; /* White text for readability */
+    color: white; 
 }
 
-/* About Me section styling */
+
 #about {
-    background-color: #004d00; /* Dark green background */
+    background-color: #004d00; 
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     margin-bottom: 20px;
     color: white;
 }
 
-/* About Me section heading */
+
 #about h2 {
     font-size: 2em;
     margin-bottom: 15px;
     text-align: center;
 }
 
-/* Highlight important areas (name and tech focus) */
+
 #about .highlight {
     font-size: 1.2em;
     text-align: center;
     font-weight: bold;
     margin-bottom: 20px;
-    background-color: #003300; /* Darker green highlight */
+    background-color: #003300; 
     padding: 10px;
     border-radius: 8px;
 }
 
-/* General paragraph styling for About Me section */
+
 #about p {
     font-size: 1.1em;
     line-height: 1.6;
     text-align: center;
 }
 
-/* Strong text for important keywords */
+
 #about strong {
-    color: #ffcc00; /* Golden highlight for emphasis */
+    color: white; 
 }
 
-/* Table styling for the book list */
+
 table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
-    background-color: #004d00; /* Dark green table background */
+    background-color: #004d00; 
     color: white;
 }
 
 th, td {
     padding: 10px;
-    border: 1px solid #002200; /* Darker green border */
+    border: 1px solid #002200; 
     text-align: center;
 }
 
 th {
-    background-color: #003300; /* Darkest green for table headers */
+    background-color: #003300; 
 }
 
-/* Image comparison section styling */
+
 .image-comparison {
     display: flex;
-    justify-content: center; /* Center the images */
-    gap: 20px; /* Add space between images */
+    justify-content: center; 
+    gap: 20px; 
     margin-top: 20px;
 }
 
 .image-container {
-    text-align: center; /* Center the image and label */
+    text-align: center; 
 }
 
 .image-container img {
     display: block;
     margin: 0 auto;
-    border: 3px solid #004d00; /* Dark green border for the images */
-    border-radius: 10px; /* Slight rounding of corners */
+    border: 3px solid #004d00; 
+    border-radius: 10px; 
 }
 
 .image-container p {
     margin-top: 10px;
     font-size: 1.2em;
-    color: white; /* White text for labels */
+    color: white; 
 }
 
-/* Contact form styling */
+
 form {
     margin-top: 20px;
 }
@@ -117,7 +117,7 @@ form {
 form label {
     display: block;
     margin: 10px 0 5px;
-    color: white; /* White text for form labels */
+    color: white; 
 }
 
 form input, form textarea, form select {
@@ -125,8 +125,8 @@ form input, form textarea, form select {
     padding: 10px;
     margin-bottom: 15px;
     border-radius: 4px;
-    border: 1px solid #004d00; /* Dark green border for input fields */
-    background-color: #002200; /* Dark green background for inputs */
+    border: 1px solid #004d00; 
+    background-color: #002200; 
     color: white;
 }
 
@@ -137,7 +137,7 @@ form input[type="radio"], form input[type="checkbox"] {
 
 form button {
     padding: 10px 20px;
-    background-color: #003300; /* Dark green button */
+    background-color: #003300; 
     color: white;
     border: none;
     border-radius: 4px;
@@ -145,12 +145,12 @@ form button {
 }
 
 form button:hover {
-    background-color: #004d00; /* Slightly lighter green on hover */
+    background-color: #004d00; 
 }
 
-/* Footer styling */
+
 footer {
-    background-color: #004d00; /* Darker green footer */
+    background-color: #004d00; 
     color: white;
     text-align: center;
     padding: 10px;
@@ -158,13 +158,13 @@ footer {
     font-size: 0.9em;
 }
 
-/* Responsive adjustments */
+
 @media screen and (max-width: 600px) {
     .image-comparison {
-        flex-direction: column; /* Stack the images vertically on small screens */
+        flex-direction: column; 
     }
 
     form input, form textarea, form select {
-        width: 100%; /* Ensure form elements take up full width on smaller screens */
+        width: 100%; 
     }
 }
